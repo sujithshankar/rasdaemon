@@ -9,6 +9,7 @@ AC_PROG_INSTALL
 AC_PROG_LIBTOOL
 
 X_AC_META
+AX_DIST_RPM([rasdaemon.spec])
 
 AC_CONFIG_FILES([
 	Makefile
